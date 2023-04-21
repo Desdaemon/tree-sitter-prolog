@@ -40,7 +40,7 @@
     },
     "_line_comment": {
       "type": "PATTERN",
-      "value": "(%.*|\\/\\*[\\s\\S]*\\*\\/)"
+      "value": "%.*"
     },
     "_block_comment": {
       "type": "PATTERN",

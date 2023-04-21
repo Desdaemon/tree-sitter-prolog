@@ -16,7 +16,7 @@ module.exports = grammar({
       $._line_comment,
       $._block_comment,
     ),
-    _line_comment: $ => /(%.*|\/\*[\s\S]*\*\/)/,
+    _line_comment: $ => /%.*/,
     _block_comment: $ => /\/\*([^*]*\*+[^*/])*([^*]*\*+|[^*])*\*\//,
     fact: $ => seq(
       $._expr,
